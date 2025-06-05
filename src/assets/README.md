@@ -1,0 +1,1 @@
+# Este arquivo contém informações sobre a pasta de assets. Esta pasta pode ser expandida no futuro para incluir imagens ou outros recursos que serão utilizados nas páginas do projeto.
