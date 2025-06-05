@@ -10,7 +10,7 @@ Este projeto faz parte do Desafio 1 do curso Microsoft GitHub Copilot da DIO, e 
 
 Este projeto foi criado por meio do GitHub Copilot Chat, utilizando o seguinte comando:
 
-```console
+```bash
 @workspace /new crie uma estrutura de um projeto para uma página web simples, na qual eu tenha uma página principal (home) e uma página sobre (about).
 Esta estrutura deverá respeitar as melhores boas práticas para desenvolvimento web e suportar páginas html, folhas de estilo, scripts e imagens de forma separada.
 ```
@@ -21,14 +21,14 @@ Esta estrutura deverá respeitar as melhores boas práticas para desenvolvimento
 
 A página `index.html` também foi editada por meio do seguinte comando:
 
-```console
+```bash
 Dentro da tag `main` crie uma seção que contenha um `label` com o texto "Digite o número do cartão", um `input` e uma  `div`.
 Dentro da `div` deve existir uma tag `img` e a propriedade `src` deve apontar para uma função javascript que irá gerar automaticamente o caminho da imagem a ser exibida.
 ```
 
 No campo `input` foi adicionada uma máscara utilizando javascript para formatar o padrão de números do cartão de crédito, para isso utilizei o seguinte código:
 
-```console
+```bash
 crie uma máscara no input que aceite apenas números no formato "9999 9999 9999 9999"
 ```
 
@@ -36,7 +36,7 @@ crie uma máscara no input que aceite apenas números no formato "9999 9999 9999
 
 A página `about.html` foi editada por meio do assistente e colocada uma seção "Sobre mim", o seguinte comando foi utilizado:
 
-```console
+```bash
 crie uma section com o título "Sobre mim" que possua uma estrutura adequada para que eu possa colocar algumas informações, inclusive com link do github e linkedin.
 ```
 
@@ -44,13 +44,13 @@ crie uma section com o título "Sobre mim" que possua uma estrutura adequada par
 
 O script de pesquisa da bandeira do cartão também foi gerada automaticamento pelo GitHub Copilot no momento que pedi que alterasse a página `index.html`, porém, ele gerou um código básico com uma verificação por um dígito inicial, utilizei o seguinte código para gerar a verificação por meio do regex oficial:
 
-```console
+```bash
 Altere a função de verificação do número do cartão utilizando a identificação oficial da bandeira do cartão de crédito.
 ```
 
 Posteriormente, foi solicitado ao assistente que fosse incluído na função de validação mais opções de cartões de crédito com o seguinte comando:
 
-```console
+```bash
 Acrescente à função de validação os cartões:
 
 Diners Club
@@ -65,7 +65,7 @@ Elo
 
 O código para limpar o campo ao clicar no botão, também foi criado pelo assistente utilizando o seguinte comando:
 
-```console
+```bash
 Crie uma função para o botão limpar, que ao ser clicado, deve limpar o conteúdo do input.
 ```
 
@@ -92,7 +92,7 @@ verifica-cartao-credito
 1. **Clone o repositório**:
 
    ```bash
-   git clone <https://github.com/Bambatera/verifica-cartao-credito.git>
+   git clone https://github.com/Bambatera/verifica-cartao-credito.git
    ```
 
 2. **Navegue até o diretório do projeto**:
